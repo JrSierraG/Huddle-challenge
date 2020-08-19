@@ -4,7 +4,7 @@
 
 ## Preview
 
-![](./images/mobile-version.png)
+[View in GitHub Pages](https://jrsierrag.github.io/Huddle-challenge/)
 
 # Front-end Style Guide
 
