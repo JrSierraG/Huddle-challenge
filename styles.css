@@ -1,0 +1,83 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+}
+
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-image: url(./images/bg-mobile.svg);
+    background-color: var(--Violet);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.wrapper {
+    margin: 35px;
+}
+
+.header {
+    width: 35vw;
+    margin-bottom: 55px;
+}
+
+.header img {
+    width: 100%;
+}
+
+.mockups img {
+    width: 100%;
+}
+
+.introductory-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.introductory-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.btn-register {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    color: var(--Violet);
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.social-media {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: 12px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.social-media.facebook {
+    background-image: url(./images/facebook.svg);
+}
+
+.social-media.twitter {
+    background-image: url(./images/twitter.svg);
+    margin: 0 5px;
+}
+
+.social-media.instagram {
+    background-image: url(./images/instagram.svg);
+}
