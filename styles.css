@@ -3,14 +3,14 @@
 }
 
 body {
-    /* font-family: 'Poppins', sans-serif; */
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
     background-image: url(./images/bg-mobile.svg);
     background-color: var(--Violet);
     background-repeat: no-repeat;
     background-position: top;
+    /* overflow: hidden; */
 }
 
 .wrapper {
@@ -18,16 +18,16 @@ body {
 }
 
 .header {
-    width: 35vw;
+    width: 30%;
     margin-bottom: 55px;
 }
 
 .header img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .mockups img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .introductory-section {
@@ -37,7 +37,7 @@ body {
 }
 
 .introductory-section h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
 
@@ -60,9 +60,9 @@ body {
 
 .social-media {
     display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-size: 12px 12px;
+    width: 2em;
+    height: 2em;
+    background-size: 0.8em 0.8em;
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid white;
@@ -80,4 +80,38 @@ body {
 
 .social-media.instagram {
     background-image: url(./images/instagram.svg);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-size: cover;
+        background-position: center left;
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    .main {
+        display: flex;
+    }
+    .mockups img {
+        max-width: initial;
+    }
+    .introductory-section {
+        text-align: initial;
+    }
+    .introductory-section h1 {
+        font-size: 40px;
+    }
+    .introductory-section p {
+        font-size: 17px;
+    }
+    .btn-register {
+        width: 180px;
+        height: 50px;
+    }
+    .footer {
+        text-align: right;
+        font-size: 20px;
+        margin-top: initial;
+    }
 }
