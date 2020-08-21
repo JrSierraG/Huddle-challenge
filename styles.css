@@ -82,7 +82,7 @@ body {
     background-image: url(./images/instagram.svg);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1023px) {
     body {
         background-image: url(./images/bg-desktop.svg);
         background-size: cover;
@@ -90,20 +90,26 @@ body {
         margin-left: 40px;
         margin-right: 50px;
     }
+    .wrapper {
+        margin-right: 0;
+    }
     .main {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mockups img {
-        max-width: initial;
+        max-width: 45vw;
     }
     .introductory-section {
         text-align: initial;
+        max-width: 45vw;
     }
     .introductory-section h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .introductory-section p {
-        font-size: 17px;
+        font-size: 15px;
     }
     .btn-register {
         width: 180px;
@@ -113,5 +119,20 @@ body {
         text-align: right;
         font-size: 20px;
         margin-top: initial;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .wrapper {
+        margin-right: 35px;
+    }
+    .mockups img {
+        max-width: initial;
+    }
+    .introductory-section p {
+        font-size: 17px;
+    }
+    .introductory-section h1 {
+        font-size: 40px;
     }
 }
