@@ -4,7 +4,7 @@
 
 ## Preview
 
-[View in GitHub Pages](https://jrsierrag.github.io/Huddle-challenge/)
+[View in GitHub Pages](https://jrsierrago.github.io/Huddle-challenge/)
 
 ![](https://repository-images.githubusercontent.com/288611744/091a7e80-e30e-11ea-880a-20251fb506a7)
 
